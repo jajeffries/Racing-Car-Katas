@@ -1,7 +1,6 @@
-
 using NUnit.Framework;
 
-namespace TDDMicroExercises.TirePressureMonitoringSystem
+namespace TDDMicroExercises.PressureMonitoringSystem.Tests
 {
     [TestFixture]
     public class AlarmTest

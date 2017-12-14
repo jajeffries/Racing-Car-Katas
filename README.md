@@ -9,22 +9,20 @@ When you have some kind of test to lean on, refactor the code and make it testab
 
 Apply the unit testing style and framework you are most comfortable with. You can choose to use stubs or mocks or none at all. If you do, you are free to use the mocking tool that you prefer.
 
-1. **TirePressureMonitoringSystem exercise**:  write the unit tests for the Alarm class. The Alarm class is designed to monitor tire pressure and set an alarm if the pressure falls outside of the expected range. The Sensor class provided for the exercise fakes the behaviour of a real tire sensor, providing random but realistic values.
+1. **PressureMonitoringSystem exercise**: Father Christmas' workshop uses a hydraulic system to move presents around the workshop. Write the unit tests for the Alarm class. The Alarm class is designed to monitor pressure and set an alarm if the pressure falls outside of the expected range. The Sensor class provided for the exercise fakes the behaviour of a real sensor, providing random but realistic values.
 
-2. **UnicodeFileToHtmlTextConverter exercise**: write the unit tests for the UnicodeFileToHtmlTextConverter class. The UnicodeFileToHtmlTextConverter class is designed to reformat a plain text file for display in a browser. For the Python and Java versions, there is an additional class "HtmlPagesConverter" which is slightly harder to get under test. It not only converts text in a file to html, it also supports pagination. It's meant as a follow up exercise.
+2. **UnicodeFileToHtmlTextConverter exercise**: Father Christmas's elves generate reports in unicode files. Father Christmas needs to be able to check them while he's out on deliveries so needs them to be converted to html. Write the unit tests for the UnicodeFileToHtmlTextConverter class. The UnicodeFileToHtmlTextConverter class is designed to reformat a plain text file for display in a browser. For the Python and Java versions, there is an additional class "HtmlPagesConverter" which is slightly harder to get under test. It not only converts text in a file to html, it also supports pagination. It's meant as a follow up exercise.
 
-3. **TicketDispenser exercise**: write the unit tests for the TicketDispenser. The TicketDispenser class is designed to be used to manage a queuing system in a shop. There may be more than one ticket dispenser but the same ticket should not be issued to two different customers.
+3. **TicketDispenser exercise**: The TicketDispenser class is designed to be used to manage a queuing system in the workshop shop. Write unit tests for the TicketDispenser. There may be more than one ticket dispenser but the same ticket should not be issued to two different customers.
 
-4. **TelemetrySystem exercise**: write the unit tests for the TelemetryDiagnosticControls class. The responsibility of the TelemetryDiagnosticControls class is to establish a connection to the telemetry server (through the TelemetryClient), send a diagnostic request and successfully receive the response that contains the diagnostic info. The TelemetryClient class provided for the exercise fakes the behavior of the real TelemetryClient class, and can respond with either the diagnostic information or a random sequence. The real TelemetryClient class would connect and communicate with the telemetry server via tcp/ip.
-
-5. **Leaderboard exercise**: (note this exercise is still being developed) Write the unit tests for the Leaderboard class, including races with self driving cars. The Leaderboard calculates driver points and rankings based on results from a number of races.
+4. **TelemetrySystem exercise**: Father Christmas is upgrading his workshop to use IoT devices to track the health of machinery. Write the unit tests for the TelemetryDiagnosticControls class. The responsibility of the TelemetryDiagnosticControls class is to establish a connection to the telemetry server (through the TelemetryClient), send a diagnostic request and successfully receive the response that contains the diagnostic info. The TelemetryClient class provided for the exercise fakes the behavior of the real TelemetryClient class, and can respond with either the diagnostic information or a random sequence. The real TelemetryClient class would connect and communicate with the telemetry server via tcp/ip.
 
 ## Get going quickly with Cyber-Dojo
 
 You can quickly and easily get going with these problems using the cyber-dojo tool. Click on the relevant link below
 to create a new cyber-dojo practice id with the problem set up ready for your dojo.
 
-1. TirePressureMonitoringSystem in [C#](http://www.cyber-dojo.org/forker/fork/E21AEC276D?avatar=buffalo&tag=2), [Java](http://www.cyber-dojo.org/forker/fork/140302C80A?avatar=salmon&tag=3), [C++](http://www.cyber-dojo.org/forker/fork/66DE393660?avatar=buffalo&tag=13)
+1. ressureMonitoringSystem in [C#](http://www.cyber-dojo.org/forker/fork/E21AEC276D?avatar=buffalo&tag=2), [Java](http://www.cyber-dojo.org/forker/fork/140302C80A?avatar=salmon&tag=3), [C++](http://www.cyber-dojo.org/forker/fork/66DE393660?avatar=buffalo&tag=13)
 2. UnicodeFileToHtmlTextConverter in [C#](http://www.cyber-dojo.org/forker/fork/01301E5148?avatar=vulture&tag=10), [Java](http://www.cyber-dojo.org/forker/fork/C2D75B3993?avatar=bee&tag=4), [C++](http://www.cyber-dojo.org/forker/fork/AF903B0945?avatar=hyena&tag=8)
 3. Ticket Dispenser [C++](http://www.cyber-dojo.org/forker/fork/252D7AA030?avatar=porcupine&tag=7)
 4. Telemetry Diagnostic Controls [C++](http://www.cyber-dojo.org/forker/fork/00EE2E79B5?avatar=beetle&tag=7)
